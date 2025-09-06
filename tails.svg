@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="#d1d5db" stroke="#9ca3af" stroke-width="5"/>
+  
+  <!-- Decorative Ring -->
+  <circle cx="100" cy="100" r="85" fill="none" stroke="#9ca3af" stroke-width="2" stroke-dasharray="5,3"/>
+  
+  <!-- Building/Monument Design -->
+  <g transform="translate(50, 40) scale(0.5)">
+    <!-- Base/Foundation -->
+    <rect x="60" y="180" width="80" height="10" fill="#9ca3af" stroke="#6b7280" stroke-width="2"/>
+    
+    <!-- Steps -->
+    <rect x="70" y="170" width="60" height="10" fill="#9ca3af" stroke="#6b7280" stroke-width="1"/>
+    
+    <!-- Main Structure -->
+    <rect x="80" y="80" width="40" height="90" fill="#d1d5db" stroke="#9ca3af" stroke-width="2"/>
+    
+    <!-- Columns -->
+    <rect x="85" y="90" width="5" height="80" fill="#9ca3af" stroke="#6b7280" stroke-width="1"/>
+    <rect x="95" y="90" width="5" height="80" fill="#9ca3af" stroke="#6b7280" stroke-width="1"/>
+    <rect x="105" y="90" width="5" height="80" fill="#9ca3af" stroke="#6b7280" stroke-width="1"/>
+    <rect x="115" y="90" width="5" height="80" fill="#9ca3af" stroke="#6b7280" stroke-width="1"/>
+    
+    <!-- Top Structure -->
+    <polygon points="75,80 125,80 100,40" fill="#d1d5db" stroke="#9ca3af" stroke-width="2"/>
+    
+    <!-- Decorative Elements -->
+    <rect x="95" y="50" width="10" height="30" fill="#9ca3af" stroke="#6b7280" stroke-width="1"/>
+    <circle cx="100" cy="45" r="5" fill="#9ca3af" stroke="#6b7280" stroke-width="1"/>
+  </g>
+  
+  <!-- Decorative Elements Around the Coin -->
+  <g>
+    <!-- Stars -->
+    <path d="M30,50 L33,58 L42,58 L35,63 L38,72 L30,67 L22,72 L25,63 L18,58 L27,58 Z" fill="#9ca3af"/>
+    <path d="M170,50 L173,58 L182,58 L175,63 L178,72 L170,67 L162,72 L165,63 L158,58 L167,58 Z" fill="#9ca3af"/>
+    <path d="M30,150 L33,158 L42,158 L35,163 L38,172 L30,167 L22,172 L25,163 L18,158 L27,158 Z" fill="#9ca3af"/>
+    <path d="M170,150 L173,158 L182,158 L175,163 L178,172 L170,167 L162,172 L165,163 L158,158 L167,158 Z" fill="#9ca3af"/>
+    
+    <!-- Small Dots Around Edge -->
+    <circle cx="100" cy="15" r="3" fill="#9ca3af"/>
+    <circle cx="135" cy="25" r="3" fill="#9ca3af"/>
+    <circle cx="165" cy="50" r="3" fill="#9ca3af"/>
+    <circle cx="185" cy="100" r="3" fill="#9ca3af"/>
+    <circle cx="165" cy="150" r="3" fill="#9ca3af"/>
+    <circle cx="135" cy="175" r="3" fill="#9ca3af"/>
+    <circle cx="100" cy="185" r="3" fill="#9ca3af"/>
+    <circle cx="65" cy="175" r="3" fill="#9ca3af"/>
+    <circle cx="35" cy="150" r="3" fill="#9ca3af"/>
+    <circle cx="15" cy="100" r="3" fill="#9ca3af"/>
+    <circle cx="35" cy="50" r="3" fill="#9ca3af"/>
+    <circle cx="65" cy="25" r="3" fill="#9ca3af"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="100" y="180" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#6b7280">TAILS</text>
+  <text x="100" y="30" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#6b7280">2023</text>
+  
+  <!-- Shine Effect -->
+  <ellipse cx="70" cy="70" rx="40" ry="25" fill="white" opacity="0.1" transform="rotate(-30 70 70)"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Background -->
+  <circle cx="32" cy="32" r="30" fill="#4361ee"/>
+  
+  <!-- Coin -->
+  <circle cx="32" cy="32" r="20" fill="#f5d742" stroke="#e2b007" stroke-width="2"/>
+  
+  <!-- Coin Edge Detail -->
+  <circle cx="32" cy="32" r="18" fill="none" stroke="#e2b007" stroke-width="1" stroke-dasharray="2,1"/>
+  
+  <!-- Coin Face Detail (simplified) -->
+  <circle cx="32" cy="32" r="12" fill="#e2b007" opacity="0.6"/>
+  
+  <!-- Shine Effect -->
+  <ellipse cx="26" cy="26" rx="8" ry="5" fill="white" opacity="0.3" transform="rotate(-30 26 26)"/>
+  
+  <!-- Flip Animation Hint (lines suggesting motion) -->
+  <path d="M10,32 L16,32" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <path d="M48,32 L54,32" stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+</svg>
